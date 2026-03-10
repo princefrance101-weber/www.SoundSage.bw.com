@@ -84,3 +84,37 @@ border-radius:10px;
 transition:0.3s;
 }
 
+.contact-section{
+background:#111;
+color:white;
+padding:60px;
+font-family:Arial;
+}
+
+.contact-section h2{
+margin-bottom:30px;
+font-size:32px;
+}
+
+.contact-item{
+margin:20px 0;
+font-size:20px;
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.contact-item a{
+color:#00c3ff;
+text-decoration:none;
+font-weight:bold;
+}
+
+.contact-item a:hover{
+color:white;
+text-decoration:underline;
+}
+
+.icon{
+font-size:28px;
+}

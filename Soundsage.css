@@ -8,8 +8,16 @@
 
 /* BODY */
 body {
-    background: #0b0b0b;
-    color: white;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.95)),
+              url('images/speaker-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
 
 /* HEADER */
